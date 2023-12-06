@@ -1,11 +1,26 @@
 {
   "name": "typescript-homework-module-3",
   "version": "1.0.0",
-  "description": "",
+  "description": "Клас Student, який містить три властивості: name, age та grade. Замість того, щоб оголошувати ці властивості в тілі класу, потім у конструкторі, і нарешті надавати їм значення, напишіть скорочену ініціалізацію.\r ```ts\r class Student {\r   public name: string;\r   public age: number;\r   public grade: string;",
+  "scripts": {
+    "start": "web-dev-server --node-resolve --open --watch"
+  },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "dependencies": {
     "typescript": "^5.1.5"
+  },
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Wed88/goit-advancedjs-hw-07.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Wed88/goit-advancedjs-hw-07/issues"
+  },
+  "homepage": "https://github.com/Wed88/goit-advancedjs-hw-07#readme",
+  "devDependencies": {
+    "@web/dev-server": "^0.4.1"
   }
 }
